@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="15"
-        android:hint="1001"
+        android:hint="499984"
         android:importantForAutofill="no"
         android:inputType="text"
         android:minHeight="48dp" />
