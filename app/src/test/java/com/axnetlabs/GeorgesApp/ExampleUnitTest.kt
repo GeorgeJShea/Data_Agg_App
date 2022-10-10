@@ -1,4 +1,4 @@
-package com.axnetlabs.phpcrudecrud2
+package com.axnetlabs.GeorgesApp
 
 import org.junit.Test
 
