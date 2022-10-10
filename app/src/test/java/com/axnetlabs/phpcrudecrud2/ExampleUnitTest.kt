@@ -1,4 +1,4 @@
-package com.axnetlabs.phpcrudecrud
+package com.axnetlabs.phpcrudecrud2
 
 import org.junit.Test
 
