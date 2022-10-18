@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
         // this url returns plain text
         val url = "http://192.168.56.107/search_emp_no.php?emp_no=" + employeeId
         // this url returns json data
-        //val url = "http://172.16.141.133/search_emp_no_json.php?emp_no=" + employeeId
+        //val url = "http://172.16.141.107/search_emp_no_json.php?emp_no=" + employeeId
 
         // Formulate the request and handle the response.
         val stringRequest = StringRequest(Request.Method.GET, url,
