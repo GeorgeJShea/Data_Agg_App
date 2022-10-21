@@ -18,8 +18,8 @@
 
     <Button
         android:id="@+id/button_first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="336dp"
+        android:layout_height="54dp"
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
