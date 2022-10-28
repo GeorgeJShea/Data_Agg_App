@@ -1,4 +1,4 @@
-# Android Client App for the PHP Crude CRUD Application
+# Client Side Data Aggratation APP
 
 A very basic app that uses "Volley" to make an HTTP API request to retrieve data from a MySQL Database
 
