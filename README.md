@@ -1,10 +1,20 @@
-# Android Client App for the PHP Crude CRUD Application
+# Client Side Data Aggratation APP
 
-A very basic app that uses "Volley" to make an HTTP API request to retrieve data from a MySQL Database
+Be Sure To Download The Backend
 
-To create a server running the PHP Crude CRUD LAMP stack, HTML files, and API's download and use the Vagrantfile from this repo:
+https://github.com/GeorgeJShea/PHP_Vagrant_Backend
+  
+  Leveraging
+  - Virtualbox
+  - Vagrant
+  
+Be sure to boot server before application runtime
+
+_________________________________________________________________________
+App Showcases
+- Volley
+- Mysql Database interactions
 
 
-To create a local server.
+Thank You Joe For Making This Repo Possible
 
-You will need to have Virtualbox and the Vagrant command line tool installed.
