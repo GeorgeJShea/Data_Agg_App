@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.axnetlabs.GeorgesApp.MainActivity2">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="373dp"
+        android:layout_height="49dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="130dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
