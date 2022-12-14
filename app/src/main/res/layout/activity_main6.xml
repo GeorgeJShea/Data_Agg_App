@@ -11,6 +11,7 @@
         android:layout_width="412dp"
         android:layout_height="55dp"
         android:src="?android:attr/autofilledHighlight"
+        app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="-1dp" />
 
     <ImageView
@@ -18,34 +19,40 @@
         android:layout_width="412dp"
         android:layout_height="55dp"
         android:src="?android:attr/autofilledHighlight"
+        app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="-1dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="238dp"
         android:layout_height="61dp"
+        android:layout_marginTop="115dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Thank You For Downloading"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="115dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="86dp" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="178dp"
         android:layout_height="55dp"
+        android:layout_marginTop="194dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Or Being Forced To"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="194dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="116dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="531dp"
+        android:layout_marginBottom="152dp"
         android:text="Main Menu"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="531dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="144dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

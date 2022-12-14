@@ -1,6 +1,7 @@
 package com.axnetlabs.phpcrudecrud
 // package name renames save renamed else where
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -30,6 +31,24 @@ class MainActivity : AppCompatActivity() {
 
     // function to retrieve the data based on employee ID
     // this is tied to the "retrieveData" button
+    fun MoveApp(view: View)
+    {
+        val intent = Intent(this, MainActivity2::class.java)
+// To pass any data to next activity
+
+// start your next activity
+        startActivity(intent)
+
+    }
+    fun DoThing(view: View)
+    {
+        val intent = Intent(this, MainActivity4::class.java)
+// To pass any data to next activity
+
+// start your next activity
+        startActivity(intent)
+
+    }
     fun  retrieveData(view: View){
 
         // local function var that contains the employee to retrieve
@@ -70,6 +89,7 @@ class MainActivity : AppCompatActivity() {
 
         // Add the request to the RequestQueue.
         requestQueue.add(stringRequest)
+
 
     }
 }

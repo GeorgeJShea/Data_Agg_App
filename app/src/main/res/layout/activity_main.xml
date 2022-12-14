@@ -12,8 +12,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:text="@string/sensor_num" />
+        android:text="PLANT DATA JOSON"
+        android:textSize="24sp" />
 
     <EditText
         android:id="@+id/empToRetrieve"
@@ -33,13 +33,20 @@
         android:onClick="retrieveData"
         android:text="@string/retrieve_button" />
 
+    <Button
+        android:id="@+id/retrieveData3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="MoveApp"
+        android:text="Main Menu" />
+
     <TextView
         android:id="@+id/employeeData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="20"
         android:layout_marginTop="20dp"
-        android:textSize="24sp"
-        android:text="Employee Data Displayed Here" />
+        android:ems="20"
+        android:text="Plant Data here"
+        android:textSize="24sp" />
 
 </LinearLayout>

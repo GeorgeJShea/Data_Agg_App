@@ -7,50 +7,60 @@
     tools:context="com.axnetlabs.GeorgesApp.MainActivity2">
 
     <Button
-        android:id="@+id/potato"
-        android:layout_width="354dp"
-        android:layout_height="55dp"
-        android:text="Retrieve"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="178dp" />
-
-    <Button
-        android:id="@+id/potato3"
-        android:layout_width="354dp"
-        android:layout_height="55dp"
-        android:text="Update"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="271dp" />
-
-    <Button
-        android:id="@+id/potato4"
-        android:layout_width="354dp"
-        android:layout_height="55dp"
+        android:id="@+id/retrieveData10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="427dp"
         android:text="Destroy"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="368dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="33dp" />
 
     <Button
-        android:id="@+id/potato5"
-        android:layout_width="354dp"
-        android:layout_height="55dp"
-        android:text="About"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="583dp" />
+        android:id="@+id/retrieveData2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="639dp"
+        android:onClick="MoveApp"
+        android:text="Main Menu"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp" />
 
     <Button
-        android:id="@+id/potato2"
-        android:layout_width="354dp"
-        android:layout_height="55dp"
+        android:id="@+id/retrieveData5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:onClick="MoveApp"
         android:text="Create"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="83dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="45dp" />
+
+    <Button
+        android:id="@+id/retrieveData6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="224dp"
+        android:onClick="MoveApp"
+        android:text="Update"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/retrieveData7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
+        android:onClick="MoveApp"
+        android:text="R"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="412dp"
         android:layout_height="55dp"
         android:src="?android:attr/autofilledHighlight"
+        app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="-1dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
